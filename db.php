@@ -14,6 +14,7 @@
 
         public function closeDatabase(){
             mysql_close($this->conn);
+          
             
         }
     }
